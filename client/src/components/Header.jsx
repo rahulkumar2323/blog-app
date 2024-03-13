@@ -46,6 +46,7 @@ export default function Header() {
           <Button
             className="bg-[#eed3d9] text-black dark:text-white hover:bg-pink-100"
             color="gray"
+            outline
           >
             Sign In
           </Button>
