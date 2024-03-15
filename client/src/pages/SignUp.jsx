@@ -42,7 +42,7 @@ export default function SignUp() {
         {/* left */}
         <div className="flex-1">
           <Link to="/" className="sm:text-xl font-bold dark:text-white">
-            <span className="flex px-3 py-2 bg-[#b5c0d0] rounded-lg text-white text-4xl items-center w-fit">
+            <span className="flex px-3 py-2 bg-[#FBA834] rounded-lg text-white text-4xl items-center w-fit">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -94,9 +94,9 @@ export default function SignUp() {
               />
             </div>
             <Button
-              className="bg-[#eed3d9] text-gray-70"
+              className="bg-[#333A73] text-gray-70 text-white"
               type="submit"
-              color="pink"
+              color="blue"
               disabled={loading}
             >
               {loading ? (

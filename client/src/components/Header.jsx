@@ -11,7 +11,7 @@ export default function Header() {
         to="/"
         className="self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white"
       >
-        <span className="flex px-2 py-1 bg-[#b5c0d0] rounded-lg text-white">
+        <span className="flex px-2 py-1 bg-[#FBA834] rounded-lg text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -44,7 +44,7 @@ export default function Header() {
         </Button>
         <Link to="/sign-in">
           <Button
-            className="bg-[#eed3d9] text-black dark:text-white hover:bg-pink-100"
+            className="bg-[#50C4ED] text-black dark:text-white hover:bg-pink-100"
             color="gray"
             outline
           >
