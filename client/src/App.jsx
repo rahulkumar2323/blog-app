@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import PrivateRoute from "./components/PrivateRoute";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import SignIn from "./pages/SignIn";
@@ -17,7 +18,9 @@ export default function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/sign-in" element={<SignIn />}></Route>
         <Route path="/sign-up" element={<SignUp />}></Route>
-        <Route path="/dashboard" element={<Dashboard />}></Route>
+        <Route element={<PrivateRoute />}>
+          <Route path="/dashboard" element={<Dashboard />}></Route>
+        </Route>
         <Route path="/projects" element={<Projects />}></Route>
       </Routes>
       <FooterCom />
